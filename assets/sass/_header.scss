@@ -1,0 +1,39 @@
+header{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1px solid #F2F2F2;
+    
+  
+
+    .logo {
+      font-weight: 600;
+       color :#ffffff;
+    }
+
+    nav{
+    display: flex;
+   
+
+        a{
+            text-decoration: none;
+            padding-right: 20px;
+            font-family: 'Roboto', sans-serif;
+            color: #ffffff;
+            font-size: 14px;
+        
+            &:hover{
+                color: red;
+            }
+            
+        }
+        
+
+        
+
+        
+    }
+}
