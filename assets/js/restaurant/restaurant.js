@@ -6,6 +6,7 @@ import Discover from './Discover'
 import Catering from './Catering'
 import OurMenu from './OurMenu'
 import Recommend from './Recommend'
+import Review from './Review'
 
 class Layout extends Component {
   constructor () {
@@ -23,6 +24,7 @@ class Layout extends Component {
       <Catering />
       <OurMenu />
       <Recommend />
+      <Review />
 
     </div>)
   }
