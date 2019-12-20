@@ -552,47 +552,51 @@ var Review = function (_Component) {
         { className: "review" },
         _react2.default.createElement(
           "div",
-          { className: "container" },
+          { className: "review-star" },
+          _react2.default.createElement("i", { className: "fas fa-star" }),
+          _react2.default.createElement("i", { className: "fas fa-star" }),
+          _react2.default.createElement("i", { className: "fas fa-star" }),
+          _react2.default.createElement("i", { className: "fas fa-star" }),
+          _react2.default.createElement("i", { className: "fas fa-star" })
+        ),
+        _react2.default.createElement(
+          "div",
+          { className: "details-box" },
           _react2.default.createElement(
-            "div",
-            { className: "review-star" },
-            _react2.default.createElement("i", { "class": "fas fa-star" }),
-            _react2.default.createElement("i", { "class": "fas fa-star" }),
-            _react2.default.createElement("i", { "class": "fas fa-star" }),
-            _react2.default.createElement("i", { "class": "fas fa-star" }),
-            _react2.default.createElement("i", { "class": "fas fa-star" })
+            "p",
+            { className: "text" },
+            "Cattle. And was. Fourth be appear. Thing lesser replenish evening called void a, sea, blessed meat fourth called moveth place behold night own night third in they're abundantly"
           ),
           _react2.default.createElement(
             "div",
-            { className: "details-box" },
-            _react2.default.createElement(
-              "p",
-              { className: "text" },
-              "Cattle. And was. Fourth be appear. Thing lesser replenish evening called void a, sea, blessed meat fourth called moveth place behold night own night third in they're abundantly"
-            ),
+            null,
             _react2.default.createElement("img", {
               src: "/img/d-line.png",
               className: "stylish-line",
               alt: "stylish-line"
-            }),
+            })
+          ),
+          _react2.default.createElement(
+            "div",
+            null,
             _react2.default.createElement("img", {
-              src: "/img/d-line.png",
-              className: "stylish-line",
-              alt: "stylish-line"
+              src: "/img/review-photo.jpg",
+              className: "review-photo",
+              alt: "review-photo"
             }),
             _react2.default.createElement(
               "h3",
               null,
               "Joe Ma"
-            ),
-            _react2.default.createElement(
-              "div",
-              { className: " dot-box" },
-              _react2.default.createElement("div", { className: "dot" }),
-              _react2.default.createElement("div", { className: "dot" }),
-              _react2.default.createElement("div", { className: "dot" }),
-              _react2.default.createElement("div", { className: "dot" })
             )
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: " dot-box" },
+            _react2.default.createElement("div", { className: "dot" }),
+            _react2.default.createElement("div", { className: "dot" }),
+            _react2.default.createElement("div", { className: "dot" }),
+            _react2.default.createElement("div", { className: "dot" })
           )
         )
       );
@@ -777,7 +781,8 @@ var Layout = function (_Component) {
         _react2.default.createElement(_Catering2.default, null),
         _react2.default.createElement(_OurMenu2.default, null),
         _react2.default.createElement(_Recommend2.default, null),
-        _react2.default.createElement(_Review2.default, null)
+        _react2.default.createElement(_Review2.default, null),
+        _react2.default.createElement(Experts, null)
       );
     }
   }]);
