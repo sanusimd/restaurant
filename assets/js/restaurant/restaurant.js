@@ -7,6 +7,7 @@ import Catering from './Catering'
 import OurMenu from './OurMenu'
 import Recommend from './Recommend'
 import Review from './Review'
+import Experts from './Experts'
 
 class Layout extends Component {
   constructor () {
