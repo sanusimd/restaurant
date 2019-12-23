@@ -244,8 +244,166 @@ var Experts = function (_Component) {
         { className: "expert" },
         _react2.default.createElement(
           "div",
-          { className: "container" },
-          "Expert Chef"
+          { className: "info" },
+          _react2.default.createElement(
+            "h3",
+            null,
+            "Amaging"
+          ),
+          _react2.default.createElement(
+            "h2",
+            null,
+            "Kitchen Experts"
+          ),
+          _react2.default.createElement("img", {
+            src: "/img/d-line.png",
+            className: "stylish-line",
+            alt: "stylish-line"
+          })
+        ),
+        _react2.default.createElement(
+          "div",
+          { className: "expert-box" },
+          _react2.default.createElement(
+            "div",
+            { className: "expert-details" },
+            _react2.default.createElement(
+              "div",
+              { className: "image-box" },
+              _react2.default.createElement("img", {
+                src: "/img/expert-chef-01.png",
+                className: "expert-image",
+                alt: "expert-image"
+              })
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "expert-info" },
+              _react2.default.createElement(
+                "h3",
+                { className: "expert-name" },
+                "Stephen Roberts"
+              ),
+              _react2.default.createElement(
+                "h5",
+                { className: "expert-position" },
+                "main chef"
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "expert-social-media" },
+              _react2.default.createElement("i", { className: "fab fa-facebook-f" }),
+              _react2.default.createElement("i", { className: "fab fa-twitter" }),
+              _react2.default.createElement("i", { className: "fab fa-linkedin-in" }),
+              _react2.default.createElement("i", { className: "fab fa-google-plus-g" })
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: "expert-details" },
+            _react2.default.createElement(
+              "div",
+              { className: "image-box" },
+              _react2.default.createElement("img", {
+                src: "/img/expert-chef-04.png",
+                className: "expert-image",
+                alt: "expert-image"
+              })
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "expert-info" },
+              _react2.default.createElement(
+                "h3",
+                { className: "expert-name" },
+                "Stephen Roberts"
+              ),
+              _react2.default.createElement(
+                "h5",
+                { className: "expert-position" },
+                "main chef"
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "expert-social-media" },
+              _react2.default.createElement("i", { className: "fab fa-facebook-f" }),
+              _react2.default.createElement("i", { className: "fab fa-twitter" }),
+              _react2.default.createElement("i", { className: "fab fa-linkedin-in" }),
+              _react2.default.createElement("i", { className: "fab fa-google-plus-g" })
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: "expert-details" },
+            _react2.default.createElement(
+              "div",
+              { className: "image-box" },
+              _react2.default.createElement("img", {
+                src: "/img/expert-chef-01.png",
+                className: "expert-image",
+                alt: "expert-image"
+              })
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "expert-info" },
+              _react2.default.createElement(
+                "h3",
+                { className: "expert-name" },
+                "Stephen Roberts"
+              ),
+              _react2.default.createElement(
+                "h5",
+                { className: "expert-position" },
+                "main chef"
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "expert-social-media" },
+              _react2.default.createElement("i", { className: "fab fa-facebook-f" }),
+              _react2.default.createElement("i", { className: "fab fa-twitter" }),
+              _react2.default.createElement("i", { className: "fab fa-linkedin-in" }),
+              _react2.default.createElement("i", { className: "fab fa-google-plus-g" })
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: "expert-details" },
+            _react2.default.createElement(
+              "div",
+              { className: "image-box" },
+              _react2.default.createElement("img", {
+                src: "/img/expert-chef-04.png",
+                className: "expert-image",
+                alt: "expert-image"
+              })
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "expert-info" },
+              _react2.default.createElement(
+                "h3",
+                { className: "expert-name" },
+                "Stephen Roberts"
+              ),
+              _react2.default.createElement(
+                "h5",
+                { className: "expert-position" },
+                "main chef"
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "expert-social-media" },
+              _react2.default.createElement("i", { className: "fab fa-facebook-f" }),
+              _react2.default.createElement("i", { className: "fab fa-twitter" }),
+              _react2.default.createElement("i", { className: "fab fa-linkedin-in" }),
+              _react2.default.createElement("i", { className: "fab fa-google-plus-g" })
+            )
+          )
         )
       );
     }
