@@ -12,6 +12,9 @@
 @import "recommend";
 @import "review";
 @import "experts";
+@import "reservation";
+@import "footer";
+
 
 
 
@@ -27,9 +30,9 @@ h1 {
 
 .container{
  width: 950px;
- display: flex;
- justify-content: space-between;
- align-items: center;
+//  display: flex;
+//  justify-content: space-between;
+//  align-items: center;
   margin: 0 auto;
 }
 

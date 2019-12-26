@@ -8,6 +8,8 @@ import OurMenu from './OurMenu'
 import Recommend from './Recommend'
 import Review from './Review'
 import Experts from './Experts'
+import Reservation from './Reservation'
+import Footer from './Footer'
 
 class Layout extends Component {
   constructor () {
@@ -27,6 +29,8 @@ class Layout extends Component {
       <Recommend />
       <Review />
       <Experts />
+      <Reservation />
+      <Footer />
 
     </div>)
   }

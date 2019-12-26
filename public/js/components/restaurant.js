@@ -12,11 +12,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(27);
+var _react = __webpack_require__(18);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(28);
+var _reactDom = __webpack_require__(19);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -112,11 +112,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(27);
+var _react = __webpack_require__(18);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(28);
+var _reactDom = __webpack_require__(19);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -206,11 +206,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(27);
+var _react = __webpack_require__(18);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(28);
+var _reactDom = __webpack_require__(19);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -428,11 +428,253 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(27);
+var _react = __webpack_require__(18);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(28);
+var _reactDom = __webpack_require__(19);
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+// import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
+
+var Footer = function (_Component) {
+  _inherits(Footer, _Component);
+
+  function Footer(props) {
+    _classCallCheck(this, Footer);
+
+    var _this = _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).call(this));
+
+    _this.state = {
+      name: "Sanusi"
+    };
+    return _this;
+  }
+
+  _createClass(Footer, [{
+    key: "render",
+    value: function render() {
+      // const style = {
+      //   width: "100%",
+      //   height: "100%"
+      // };
+      return _react2.default.createElement(
+        "section",
+        { className: "footer" },
+        _react2.default.createElement(
+          "div",
+          { className: "footer__mapbox" },
+          _react2.default.createElement("div", { className: "footer__mapbox--map" }),
+          _react2.default.createElement(
+            "div",
+            { className: "footer__mapbox--info" },
+            _react2.default.createElement("img", {
+              src: "/img/logo.png",
+              className: "footer-logo",
+              alt: "footer-logo"
+
+            }),
+            _react2.default.createElement(
+              "h3",
+              null,
+              "Location"
+            ),
+            _react2.default.createElement("img", {
+              src: "/img/d-line.png",
+              className: "stylish-line",
+              alt: "stylish-line"
+            }),
+            _react2.default.createElement(
+              "p",
+              null,
+              "45-47 Babangida Avenue Lekki Lagos Nigeria"
+            )
+          )
+        ),
+        _react2.default.createElement(
+          "div",
+          { className: "container" },
+          _react2.default.createElement(
+            "div",
+            { className: "footer__box" },
+            _react2.default.createElement(
+              "div",
+              { className: "box footer__box--about" },
+              _react2.default.createElement(
+                "h3",
+                null,
+                "About Us"
+              ),
+              _react2.default.createElement("img", {
+                src: "/img/d-line.png",
+                className: "stylish-line",
+                alt: "stylish-line"
+              }),
+              _react2.default.createElement(
+                "p",
+                null,
+                "Far far away, behind the word mountains, far from the countries Vokalia and Conso Nantia there live the blind texts"
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "box footer__box--hours" },
+              _react2.default.createElement(
+                "h3",
+                null,
+                "Opening Hours"
+              ),
+              _react2.default.createElement("img", {
+                src: "/img/d-line.png",
+                className: "stylish-line",
+                alt: "stylish-line"
+              }),
+              _react2.default.createElement(
+                "p",
+                null,
+                " ",
+                _react2.default.createElement(
+                  "span",
+                  null,
+                  "Mon-Thu:"
+                ),
+                " 7:00am-8:00pm",
+                " "
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                " ",
+                _react2.default.createElement(
+                  "span",
+                  null,
+                  "Fri-Sun:"
+                ),
+                " 7:00am-10:00pm"
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "box footer__box--contact" },
+              _react2.default.createElement(
+                "h3",
+                null,
+                "Contact Info"
+              ),
+              _react2.default.createElement("img", {
+                src: "/img/d-line.png",
+                className: "stylish-line",
+                alt: "stylish-line"
+              }),
+              _react2.default.createElement(
+                "p",
+                null,
+                " ",
+                _react2.default.createElement(
+                  "span",
+                  null,
+                  "Call us:"
+                ),
+                " 091 552 6580"
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                " ",
+                _react2.default.createElement(
+                  "span",
+                  null,
+                  "Mail us:"
+                ),
+                " contact@foodie.com"
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          "div",
+          { className: "footer__copyright" },
+          _react2.default.createElement(
+            "div",
+            { className: "footer__copyright--info" },
+            _react2.default.createElement(
+              "span",
+              null,
+              "\xA9 Copyright Foodie Nigeria, Design By :-",
+              " ",
+              _react2.default.createElement(
+                "a",
+                { href: "#" },
+                "Sanusi"
+              ),
+              " "
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: "nav" },
+            _react2.default.createElement(
+              "a",
+              { href: "#" },
+              "About Us"
+            ),
+            _react2.default.createElement(
+              "a",
+              { href: "#" },
+              "Our Chef"
+            ),
+            _react2.default.createElement(
+              "a",
+              { href: "#" },
+              "News"
+            ),
+            _react2.default.createElement(
+              "a",
+              { href: "#" },
+              "Delivery"
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Footer;
+}(_react.Component);
+
+exports.default = Footer;
+// export default GoogleApiWrapper({
+//   apiKey: "AIzaSyAy1t5OdFdoiM-MhH52x71Dw6fExbobJGE"
+// })(Footer);
+
+/***/ }),
+
+/***/ 234:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(18);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(19);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -453,52 +695,56 @@ var Header = function (_Component) {
     var _this = _possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).call(this));
 
     _this.state = {
-      name: 'Sanusi'
+      name: "Sanusi"
     };
     return _this;
   }
 
   _createClass(Header, [{
-    key: 'render',
+    key: "render",
     value: function render() {
       return _react2.default.createElement(
-        'header',
+        "header",
         null,
         _react2.default.createElement(
-          'div',
-          { className: 'container' },
+          "div",
+          { className: "container" },
           _react2.default.createElement(
-            'div',
-            { className: 'logo' },
-            'FOODIE'
-          ),
-          _react2.default.createElement(
-            'nav',
-            null,
+            "div",
+            { className: "header__menu" },
             _react2.default.createElement(
-              'a',
-              { href: '#' },
-              'Home'
+              "div",
+              { className: "logo" },
+              "FOODIE"
             ),
             _react2.default.createElement(
-              'a',
-              { href: '#' },
-              'Menu'
-            ),
-            _react2.default.createElement(
-              'a',
-              { href: '#' },
-              'Reservation'
-            ),
-            _react2.default.createElement(
-              'a',
-              { href: '#' },
-              'News'
-            ),
-            _react2.default.createElement(
-              'a',
-              { href: '#' },
-              'Contact Us'
+              "nav",
+              null,
+              _react2.default.createElement(
+                "a",
+                { href: "#" },
+                "Home"
+              ),
+              _react2.default.createElement(
+                "a",
+                { href: "#" },
+                "Menu"
+              ),
+              _react2.default.createElement(
+                "a",
+                { href: "#" },
+                "Reservation"
+              ),
+              _react2.default.createElement(
+                "a",
+                { href: "#" },
+                "News"
+              ),
+              _react2.default.createElement(
+                "a",
+                { href: "#" },
+                "Contact Us"
+              )
             )
           )
         )
@@ -513,7 +759,7 @@ exports.default = Header;
 
 /***/ }),
 
-/***/ 234:
+/***/ 235:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -525,11 +771,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(27);
+var _react = __webpack_require__(18);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(28);
+var _reactDom = __webpack_require__(19);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -596,7 +842,7 @@ exports.default = OurMenu;
 
 /***/ }),
 
-/***/ 235:
+/***/ 236:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -608,11 +854,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(27);
+var _react = __webpack_require__(18);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(28);
+var _reactDom = __webpack_require__(19);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -724,7 +970,7 @@ exports.default = Recommend;
 
 /***/ }),
 
-/***/ 236:
+/***/ 237:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -736,11 +982,89 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(27);
+var _react = __webpack_require__(18);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(28);
+var _reactDom = __webpack_require__(19);
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Reservation = function (_Component) {
+  _inherits(Reservation, _Component);
+
+  function Reservation() {
+    _classCallCheck(this, Reservation);
+
+    var _this = _possibleConstructorReturn(this, (Reservation.__proto__ || Object.getPrototypeOf(Reservation)).call(this));
+
+    _this.state = {
+      name: "Sanusi"
+    };
+    return _this;
+  }
+
+  _createClass(Reservation, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "section",
+        { className: "reservation" },
+        _react2.default.createElement(
+          "div",
+          { className: "info" },
+          _react2.default.createElement(
+            "h3",
+            { className: "info__title" },
+            "Book a Table"
+          ),
+          _react2.default.createElement(
+            "h2",
+            { className: "info__heading" },
+            "Make a Reservation"
+          ),
+          _react2.default.createElement("img", {
+            src: "/img/d-line.png",
+            className: "info__stylish-line",
+            alt: "stylish-line"
+          })
+        )
+      );
+    }
+  }]);
+
+  return Reservation;
+}(_react.Component);
+
+exports.default = Reservation;
+
+/***/ }),
+
+/***/ 238:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(18);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(19);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -832,7 +1156,7 @@ exports.default = Review;
 
 /***/ }),
 
-/***/ 237:
+/***/ 239:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -844,11 +1168,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(27);
+var _react = __webpack_require__(18);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(28);
+var _reactDom = __webpack_require__(19);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -925,7 +1249,7 @@ exports.default = TopSection;
 
 /***/ }),
 
-/***/ 241:
+/***/ 243:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -933,19 +1257,19 @@ exports.default = TopSection;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(27);
+var _react = __webpack_require__(18);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(28);
+var _reactDom = __webpack_require__(19);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _Header = __webpack_require__(233);
+var _Header = __webpack_require__(234);
 
 var _Header2 = _interopRequireDefault(_Header);
 
-var _TopSection = __webpack_require__(237);
+var _TopSection = __webpack_require__(239);
 
 var _TopSection2 = _interopRequireDefault(_TopSection);
 
@@ -957,21 +1281,29 @@ var _Catering = __webpack_require__(230);
 
 var _Catering2 = _interopRequireDefault(_Catering);
 
-var _OurMenu = __webpack_require__(234);
+var _OurMenu = __webpack_require__(235);
 
 var _OurMenu2 = _interopRequireDefault(_OurMenu);
 
-var _Recommend = __webpack_require__(235);
+var _Recommend = __webpack_require__(236);
 
 var _Recommend2 = _interopRequireDefault(_Recommend);
 
-var _Review = __webpack_require__(236);
+var _Review = __webpack_require__(238);
 
 var _Review2 = _interopRequireDefault(_Review);
 
 var _Experts = __webpack_require__(232);
 
 var _Experts2 = _interopRequireDefault(_Experts);
+
+var _Reservation = __webpack_require__(237);
+
+var _Reservation2 = _interopRequireDefault(_Reservation);
+
+var _Footer = __webpack_require__(233);
+
+var _Footer2 = _interopRequireDefault(_Footer);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1008,7 +1340,9 @@ var Layout = function (_Component) {
         _react2.default.createElement(_OurMenu2.default, null),
         _react2.default.createElement(_Recommend2.default, null),
         _react2.default.createElement(_Review2.default, null),
-        _react2.default.createElement(_Experts2.default, null)
+        _react2.default.createElement(_Experts2.default, null),
+        _react2.default.createElement(_Reservation2.default, null),
+        _react2.default.createElement(_Footer2.default, null)
       );
     }
   }]);
@@ -1022,4 +1356,4 @@ _reactDom2.default.render(_react2.default.createElement(Layout, null), app);
 
 /***/ })
 
-},[241]);
+},[243]);

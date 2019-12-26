@@ -1,11 +1,15 @@
 header{
     position: absolute;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    
     padding: 20px;
     width: 100%;
     border-bottom: 1px solid #F2F2F2;
+
+    &__menu{
+        display: flex;
+        // justify-content: space-around;
+        // align-items: center;
+    }
     
   
 
