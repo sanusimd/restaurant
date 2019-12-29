@@ -13,6 +13,7 @@ class Catering extends Component {
     return (
       <section className="catering">
         <div className="container">
+          <div className="catering__box">
           <div className="discover-images">
             <img
               src="/img/pizza.jpg"
@@ -35,6 +36,7 @@ class Catering extends Component {
               </a>
             </div>
           </div>
+        </div>
         </div>
       </section>
     );

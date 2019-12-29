@@ -2,6 +2,13 @@
   height: 450px;
   padding: 30px 0;
 
+  &__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
   // discover info section
   &-info {
     width: 50%;

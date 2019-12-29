@@ -22,7 +22,59 @@ class OurMenu extends Component {
               alt={"stylish-line"}
             />
           </div>
-          <div></div>
+          <div className="menu--items">
+            <div className="menu--item">
+              <img
+                src="/img/menu-image-2.jpg"
+                className="menu-image"
+                alt={"cooking"}
+              />
+              <div className="price-box">
+                <h2 className="item__price">$30</h2>
+                <i className="fas fa-cart-plus"></i>
+              </div>
+
+              <p className="item--details">
+                Various seafood can be used to prepare the dish, such as fish
+              </p>
+            </div>
+
+            <div className="menu--item">
+              <img
+                src="/img/menu-image-2.jpg"
+                className="menu-image"
+                alt={"cooking"}
+              />
+              <div className="price-box">
+                <h2 className="item__price">$30</h2>
+                <i className="fas fa-cart-plus"></i>
+              </div>
+
+              <p className="item--details">
+                Various seafood can be used to prepare the dish, such as fish
+              </p>
+            </div>
+
+            <div className="menu--item">
+              <img
+                src="/img/menu-image-2.jpg"
+                className="menu-image"
+                alt={"cooking"}
+              />
+              <div className="price-box">
+                <h2 className="item__price">$30</h2>
+                <i className="fas fa-cart-plus"></i>
+              </div>
+
+              <p className="item--details">
+                Various seafood can be used to prepare the dish, such as fish
+              </p>
+            </div>
+          </div>
+
+          <div className="btn">
+            <a href="">View Menu</a>
+          </div>
         </div>
       </section>
     );

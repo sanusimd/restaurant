@@ -5,10 +5,10 @@ header{
     width: 100%;
     border-bottom: 1px solid #F2F2F2;
 
-    &__menu{
+    .header__menu{
         display: flex;
-        // justify-content: space-around;
-        // align-items: center;
+        justify-content: space-between;
+        align-items: center;
     }
     
   

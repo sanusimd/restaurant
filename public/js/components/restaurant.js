@@ -53,38 +53,42 @@ var Catering = function (_Component) {
           { className: "container" },
           _react2.default.createElement(
             "div",
-            { className: "discover-images" },
-            _react2.default.createElement("img", {
-              src: "/img/pizza.jpg",
-              className: "pizza",
-              alt: "pizza"
-            })
-          ),
-          _react2.default.createElement(
-            "div",
-            { className: "catering-info" },
+            { className: "catering__box" },
             _react2.default.createElement(
-              "h3",
-              null,
-              "For Your Special Day"
-            ),
-            _react2.default.createElement(
-              "h2",
-              null,
-              "Exceptional Catering Services"
-            ),
-            _react2.default.createElement(
-              "p",
-              null,
-              "We love food, lots of different food, just like you. We promise an intimate and relaxed dining experience that offers different to local and foreign patrons ."
+              "div",
+              { className: "discover-images" },
+              _react2.default.createElement("img", {
+                src: "/img/pizza.jpg",
+                className: "pizza",
+                alt: "pizza"
+              })
             ),
             _react2.default.createElement(
               "div",
-              { className: "btn" },
+              { className: "catering-info" },
               _react2.default.createElement(
-                "a",
-                { href: "#", className: "btn-red" },
-                "View Menu"
+                "h3",
+                null,
+                "For Your Special Day"
+              ),
+              _react2.default.createElement(
+                "h2",
+                null,
+                "Exceptional Catering Services"
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "We love food, lots of different food, just like you. We promise an intimate and relaxed dining experience that offers different to local and foreign patrons ."
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "btn" },
+                _react2.default.createElement(
+                  "a",
+                  { href: "#", className: "btn-red" },
+                  "View Menu"
+                )
               )
             )
           )
@@ -153,34 +157,50 @@ var Discover = function (_Component) {
           { className: "container" },
           _react2.default.createElement(
             "div",
-            { className: "discover-info" },
+            { className: "discover__box" },
             _react2.default.createElement(
-              "h3",
-              null,
-              "Discover"
+              "div",
+              { className: "discover-info" },
+              _react2.default.createElement(
+                "h3",
+                null,
+                "Discover"
+              ),
+              _react2.default.createElement(
+                "h2",
+                null,
+                "The Restaurant"
+              ),
+              _react2.default.createElement("img", {
+                src: "/img/d-line.png",
+                className: "stylish-line",
+                alt: "stylish-line"
+              }),
+              _react2.default.createElement(
+                "p",
+                null,
+                "We love food, lots of different food, just like you. We promise an intimate and relaxed dining experience that offers different to local and foreign patrons ."
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "Pick up at the restaurant at your convenience, 7 days a week. Available for orders of $100 or more, Monday - Friday until 4P.M. Delivery and Set-Up Fee of $25.."
+              ),
+              _react2.default.createElement("img", {
+                src: "/img/d-signature.png",
+                className: "signature",
+                alt: "signature"
+              })
             ),
             _react2.default.createElement(
-              "h2",
-              null,
-              "The Restaurant"
-            ),
-            _react2.default.createElement("img", { src: "/img/d-line.png", className: "stylish-line", alt: "stylish-line" }),
-            _react2.default.createElement(
-              "p",
-              null,
-              "We love food, lots of different food, just like you. We promise an intimate and relaxed dining experience that offers different to local and foreign patrons ."
-            ),
-            _react2.default.createElement(
-              "p",
-              null,
-              "Pick up at the restaurant at your convenience, 7 days a week. Available for orders of $100 or more, Monday - Friday until 4P.M. Delivery and Set-Up Fee of $25.."
-            ),
-            _react2.default.createElement("img", { src: "/img/d-signature.png", className: "signature", alt: 'signature' })
-          ),
-          _react2.default.createElement(
-            "div",
-            { className: "discover-images" },
-            _react2.default.createElement("img", { src: "/img/d-foodie-basket.png", className: "foodie-basket", alt: 'foodie-basket' })
+              "div",
+              { className: "discover-images" },
+              _react2.default.createElement("img", {
+                src: "/img/d-foodie-basket.png",
+                className: "foodie-basket",
+                alt: "foodie-basket"
+              })
+            )
           )
         )
       );
@@ -829,7 +849,91 @@ var OurMenu = function (_Component) {
               alt: "stylish-line"
             })
           ),
-          _react2.default.createElement("div", null)
+          _react2.default.createElement(
+            "div",
+            { className: "menu--items" },
+            _react2.default.createElement(
+              "div",
+              { className: "menu--item" },
+              _react2.default.createElement("img", {
+                src: "/img/menu-image-2.jpg",
+                className: "menu-image",
+                alt: "cooking"
+              }),
+              _react2.default.createElement(
+                "div",
+                { className: "price-box" },
+                _react2.default.createElement(
+                  "h2",
+                  { className: "item__price" },
+                  "$30"
+                ),
+                _react2.default.createElement("i", { className: "fas fa-cart-plus" })
+              ),
+              _react2.default.createElement(
+                "p",
+                { className: "item--details" },
+                "Various seafood can be used to prepare the dish, such as fish"
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "menu--item" },
+              _react2.default.createElement("img", {
+                src: "/img/menu-image-2.jpg",
+                className: "menu-image",
+                alt: "cooking"
+              }),
+              _react2.default.createElement(
+                "div",
+                { className: "price-box" },
+                _react2.default.createElement(
+                  "h2",
+                  { className: "item__price" },
+                  "$30"
+                ),
+                _react2.default.createElement("i", { className: "fas fa-cart-plus" })
+              ),
+              _react2.default.createElement(
+                "p",
+                { className: "item--details" },
+                "Various seafood can be used to prepare the dish, such as fish"
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "menu--item" },
+              _react2.default.createElement("img", {
+                src: "/img/menu-image-2.jpg",
+                className: "menu-image",
+                alt: "cooking"
+              }),
+              _react2.default.createElement(
+                "div",
+                { className: "price-box" },
+                _react2.default.createElement(
+                  "h2",
+                  { className: "item__price" },
+                  "$30"
+                ),
+                _react2.default.createElement("i", { className: "fas fa-cart-plus" })
+              ),
+              _react2.default.createElement(
+                "p",
+                { className: "item--details" },
+                "Various seafood can be used to prepare the dish, such as fish"
+              )
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: "btn" },
+            _react2.default.createElement(
+              "a",
+              { href: "" },
+              "View Menu"
+            )
+          )
         )
       );
     }
@@ -895,69 +999,81 @@ var Recommend = function (_Component) {
           { className: "container" },
           _react2.default.createElement(
             "div",
-            { className: "recommend-images" },
+            { className: "recommend__box" },
             _react2.default.createElement(
               "div",
-              { className: "salad-image" },
-              _react2.default.createElement("img", { src: "/img/pizaa-2.jpg", className: "pizza-2", alt: "pizza-2" })
+              { className: "recommend-images" },
+              _react2.default.createElement(
+                "div",
+                { className: "salad-image" },
+                _react2.default.createElement("img", {
+                  src: "/img/pizaa-2.jpg",
+                  className: "pizza-2",
+                  alt: "pizza-2"
+                })
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "tea-image" },
+                _react2.default.createElement("img", {
+                  src: "/img/pizza-3.jpg",
+                  className: "pizza-3",
+                  alt: "pizza-3"
+                })
+              )
             ),
             _react2.default.createElement(
               "div",
-              { className: "tea-image" },
-              _react2.default.createElement("img", { src: "/img/pizza-3.jpg", className: "pizza-3", alt: "pizza-3" })
+              { className: "recommend-info" },
+              _react2.default.createElement(
+                "h3",
+                null,
+                "Should to try"
+              ),
+              _react2.default.createElement(
+                "h2",
+                null,
+                "Chef Recommend"
+              ),
+              _react2.default.createElement("img", {
+                src: "/img/d-line.png",
+                className: "stylish-line",
+                alt: "stylish-line"
+              }),
+              _react2.default.createElement(
+                "p",
+                null,
+                "We love food, lots of different food, just like you. We promise an intimate and relaxed dining experience that offers different to local and foreign patrons ."
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "Pick up at the restaurant at your convenience, 7 days a week. Available for orders of $100 or more, Monday - Friday until 4P.M. Delivery and Set-Up Fee of $25.."
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "btn-box" },
+                _react2.default.createElement(
+                  "a",
+                  { href: "#", className: "btn-red" },
+                  "Get the Food"
+                ),
+                _react2.default.createElement(
+                  "a",
+                  { href: "#", className: "btn-red" },
+                  "Others Item"
+                )
+              )
             )
           ),
           _react2.default.createElement(
             "div",
-            { className: "recommend-info" },
-            _react2.default.createElement(
-              "h3",
-              null,
-              "Should to try"
-            ),
-            _react2.default.createElement(
-              "h2",
-              null,
-              "Chef Recommend"
-            ),
-            _react2.default.createElement("img", {
-              src: "/img/d-line.png",
-              className: "stylish-line",
-              alt: "stylish-line"
-            }),
-            _react2.default.createElement(
-              "p",
-              null,
-              "We love food, lots of different food, just like you. We promise an intimate and relaxed dining experience that offers different to local and foreign patrons ."
-            ),
-            _react2.default.createElement(
-              "p",
-              null,
-              "Pick up at the restaurant at your convenience, 7 days a week. Available for orders of $100 or more, Monday - Friday until 4P.M. Delivery and Set-Up Fee of $25.."
-            ),
-            _react2.default.createElement(
-              "div",
-              { className: "btn-box" },
-              _react2.default.createElement(
-                "a",
-                { href: "#", className: "btn-red" },
-                "Get the Food"
-              ),
-              _react2.default.createElement(
-                "a",
-                { href: "#", className: "btn-red" },
-                "Others Item"
-              )
-            )
+            { className: " dot-box" },
+            _react2.default.createElement("div", { className: "dot" }),
+            _react2.default.createElement("div", { className: "dot" }),
+            _react2.default.createElement("div", { className: "dot" }),
+            _react2.default.createElement("div", { className: "dot" })
           )
-        ),
-        _react2.default.createElement(
-          "div",
-          { className: " dot-box" },
-          _react2.default.createElement("div", { className: "dot" }),
-          _react2.default.createElement("div", { className: "dot" }),
-          _react2.default.createElement("div", { className: "dot" }),
-          _react2.default.createElement("div", { className: "dot" })
         )
       );
     }
