@@ -930,7 +930,7 @@ var OurMenu = function (_Component) {
             { className: "btn" },
             _react2.default.createElement(
               "a",
-              { href: "" },
+              { href: "#", className: "btn-red" },
               "View Menu"
             )
           )

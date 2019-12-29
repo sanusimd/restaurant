@@ -73,7 +73,7 @@ class OurMenu extends Component {
           </div>
 
           <div className="btn">
-            <a href="">View Menu</a>
+            <a href="#" className="btn-red">View Menu</a>
           </div>
         </div>
       </section>
